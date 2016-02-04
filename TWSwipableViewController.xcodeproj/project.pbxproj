@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB44F7A21C634CCE008A3E5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7A11C634CCE008A3E5F /* main.m */; };
+		EB44F7A51C634CCE008A3E5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7A41C634CCE008A3E5F /* AppDelegate.m */; };
+		EB44F7A81C634CCE008A3E5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7A71C634CCE008A3E5F /* ViewController.m */; };
+		EB44F7AB1C634CCE008A3E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB44F7A91C634CCE008A3E5F /* Main.storyboard */; };
+		EB44F7AD1C634CCE008A3E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB44F7AC1C634CCE008A3E5F /* Assets.xcassets */; };
+		EB44F7B01C634CCE008A3E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB44F7AE1C634CCE008A3E5F /* LaunchScreen.storyboard */; };
+		EB44F7BB1C634CCE008A3E5F /* TWSwipableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7BA1C634CCE008A3E5F /* TWSwipableViewControllerTests.m */; };
+		EB44F7C61C634CCE008A3E5F /* TWSwipableViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7C51C634CCE008A3E5F /* TWSwipableViewControllerUITests.m */; };
+		EB44F7E21C634CF9008A3E5F /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7E11C634CF9008A3E5F /* UIColor+Utility.m */; };
+		EB44F7E51C634D34008A3E5F /* TWSwipableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7E41C634D34008A3E5F /* TWSwipableViewController.m */; };
+		EB44F7E81C634E5C008A3E5F /* TWHorizonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7E71C634E5C008A3E5F /* TWHorizonalTableViewController.m */; };
+		EB44F7EB1C634ED6008A3E5F /* TWTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44F7EA1C634ED6008A3E5F /* TWTitleBarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB44F7B71C634CCE008A3E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB44F7951C634CCE008A3E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB44F79C1C634CCE008A3E5F;
+			remoteInfo = TWSwipableViewController;
+		};
+		EB44F7C21C634CCE008A3E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB44F7951C634CCE008A3E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB44F79C1C634CCE008A3E5F;
+			remoteInfo = TWSwipableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB44F79D1C634CCE008A3E5F /* TWSwipableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWSwipableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44F7A11C634CCE008A3E5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB44F7A31C634CCE008A3E5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB44F7A41C634CCE008A3E5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB44F7A61C634CCE008A3E5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB44F7A71C634CCE008A3E5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB44F7AA1C634CCE008A3E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB44F7AC1C634CCE008A3E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB44F7AF1C634CCE008A3E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB44F7B11C634CCE008A3E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB44F7B61C634CCE008A3E5F /* TWSwipableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWSwipableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44F7BA1C634CCE008A3E5F /* TWSwipableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWSwipableViewControllerTests.m; sourceTree = "<group>"; };
+		EB44F7BC1C634CCE008A3E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB44F7C11C634CCE008A3E5F /* TWSwipableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWSwipableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44F7C51C634CCE008A3E5F /* TWSwipableViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWSwipableViewControllerUITests.m; sourceTree = "<group>"; };
+		EB44F7C71C634CCE008A3E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB44F7E01C634CF9008A3E5F /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		EB44F7E11C634CF9008A3E5F /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		EB44F7E31C634D34008A3E5F /* TWSwipableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSwipableViewController.h; sourceTree = "<group>"; };
+		EB44F7E41C634D34008A3E5F /* TWSwipableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSwipableViewController.m; sourceTree = "<group>"; };
+		EB44F7E61C634E5C008A3E5F /* TWHorizonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHorizonalTableViewController.h; sourceTree = "<group>"; };
+		EB44F7E71C634E5C008A3E5F /* TWHorizonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHorizonalTableViewController.m; sourceTree = "<group>"; };
+		EB44F7E91C634ED6008A3E5F /* TWTitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTitleBarView.h; sourceTree = "<group>"; };
+		EB44F7EA1C634ED6008A3E5F /* TWTitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTitleBarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB44F79A1C634CCE008A3E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F7B31C634CCE008A3E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F7BE1C634CCE008A3E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB44F7941C634CCE008A3E5F = {
+			isa = PBXGroup;
+			children = (
+				EB44F79F1C634CCE008A3E5F /* TWSwipableViewController */,
+				EB44F7B91C634CCE008A3E5F /* TWSwipableViewControllerTests */,
+				EB44F7C41C634CCE008A3E5F /* TWSwipableViewControllerUITests */,
+				EB44F79E1C634CCE008A3E5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB44F79E1C634CCE008A3E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F79D1C634CCE008A3E5F /* TWSwipableViewController.app */,
+				EB44F7B61C634CCE008A3E5F /* TWSwipableViewControllerTests.xctest */,
+				EB44F7C11C634CCE008A3E5F /* TWSwipableViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB44F79F1C634CCE008A3E5F /* TWSwipableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7DB1C634CDC008A3E5F /* SwipableViewController */,
+				EB44F7A31C634CCE008A3E5F /* AppDelegate.h */,
+				EB44F7A41C634CCE008A3E5F /* AppDelegate.m */,
+				EB44F7A61C634CCE008A3E5F /* ViewController.h */,
+				EB44F7A71C634CCE008A3E5F /* ViewController.m */,
+				EB44F7A91C634CCE008A3E5F /* Main.storyboard */,
+				EB44F7AC1C634CCE008A3E5F /* Assets.xcassets */,
+				EB44F7AE1C634CCE008A3E5F /* LaunchScreen.storyboard */,
+				EB44F7B11C634CCE008A3E5F /* Info.plist */,
+				EB44F7A01C634CCE008A3E5F /* Supporting Files */,
+			);
+			path = TWSwipableViewController;
+			sourceTree = "<group>";
+		};
+		EB44F7A01C634CCE008A3E5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7A11C634CCE008A3E5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB44F7B91C634CCE008A3E5F /* TWSwipableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7BA1C634CCE008A3E5F /* TWSwipableViewControllerTests.m */,
+				EB44F7BC1C634CCE008A3E5F /* Info.plist */,
+			);
+			path = TWSwipableViewControllerTests;
+			sourceTree = "<group>";
+		};
+		EB44F7C41C634CCE008A3E5F /* TWSwipableViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7C51C634CCE008A3E5F /* TWSwipableViewControllerUITests.m */,
+				EB44F7C71C634CCE008A3E5F /* Info.plist */,
+			);
+			path = TWSwipableViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		EB44F7DB1C634CDC008A3E5F /* SwipableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB44F7E31C634D34008A3E5F /* TWSwipableViewController.h */,
+				EB44F7E41C634D34008A3E5F /* TWSwipableViewController.m */,
+				EB44F7E61C634E5C008A3E5F /* TWHorizonalTableViewController.h */,
+				EB44F7E71C634E5C008A3E5F /* TWHorizonalTableViewController.m */,
+				EB44F7E91C634ED6008A3E5F /* TWTitleBarView.h */,
+				EB44F7EA1C634ED6008A3E5F /* TWTitleBarView.m */,
+				EB44F7E01C634CF9008A3E5F /* UIColor+Utility.h */,
+				EB44F7E11C634CF9008A3E5F /* UIColor+Utility.m */,
+			);
+			name = SwipableViewController;
+			path = ../../SwipableViewControllerTest/SwipableViewControllerTest/SwipableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB44F79C1C634CCE008A3E5F /* TWSwipableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB44F7CA1C634CCE008A3E5F /* Build configuration list for PBXNativeTarget "TWSwipableViewController" */;
+			buildPhases = (
+				EB44F7991C634CCE008A3E5F /* Sources */,
+				EB44F79A1C634CCE008A3E5F /* Frameworks */,
+				EB44F79B1C634CCE008A3E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWSwipableViewController;
+			productName = TWSwipableViewController;
+			productReference = EB44F79D1C634CCE008A3E5F /* TWSwipableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB44F7B51C634CCE008A3E5F /* TWSwipableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB44F7CD1C634CCE008A3E5F /* Build configuration list for PBXNativeTarget "TWSwipableViewControllerTests" */;
+			buildPhases = (
+				EB44F7B21C634CCE008A3E5F /* Sources */,
+				EB44F7B31C634CCE008A3E5F /* Frameworks */,
+				EB44F7B41C634CCE008A3E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB44F7B81C634CCE008A3E5F /* PBXTargetDependency */,
+			);
+			name = TWSwipableViewControllerTests;
+			productName = TWSwipableViewControllerTests;
+			productReference = EB44F7B61C634CCE008A3E5F /* TWSwipableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB44F7C01C634CCE008A3E5F /* TWSwipableViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB44F7D01C634CCE008A3E5F /* Build configuration list for PBXNativeTarget "TWSwipableViewControllerUITests" */;
+			buildPhases = (
+				EB44F7BD1C634CCE008A3E5F /* Sources */,
+				EB44F7BE1C634CCE008A3E5F /* Frameworks */,
+				EB44F7BF1C634CCE008A3E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB44F7C31C634CCE008A3E5F /* PBXTargetDependency */,
+			);
+			name = TWSwipableViewControllerUITests;
+			productName = TWSwipableViewControllerUITests;
+			productReference = EB44F7C11C634CCE008A3E5F /* TWSwipableViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB44F7951C634CCE008A3E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = haKim;
+				TargetAttributes = {
+					EB44F79C1C634CCE008A3E5F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EB44F7B51C634CCE008A3E5F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EB44F79C1C634CCE008A3E5F;
+					};
+					EB44F7C01C634CCE008A3E5F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EB44F79C1C634CCE008A3E5F;
+					};
+				};
+			};
+			buildConfigurationList = EB44F7981C634CCE008A3E5F /* Build configuration list for PBXProject "TWSwipableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB44F7941C634CCE008A3E5F;
+			productRefGroup = EB44F79E1C634CCE008A3E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB44F79C1C634CCE008A3E5F /* TWSwipableViewController */,
+				EB44F7B51C634CCE008A3E5F /* TWSwipableViewControllerTests */,
+				EB44F7C01C634CCE008A3E5F /* TWSwipableViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB44F79B1C634CCE008A3E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44F7B01C634CCE008A3E5F /* LaunchScreen.storyboard in Resources */,
+				EB44F7AD1C634CCE008A3E5F /* Assets.xcassets in Resources */,
+				EB44F7AB1C634CCE008A3E5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F7B41C634CCE008A3E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F7BF1C634CCE008A3E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB44F7991C634CCE008A3E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44F7EB1C634ED6008A3E5F /* TWTitleBarView.m in Sources */,
+				EB44F7E21C634CF9008A3E5F /* UIColor+Utility.m in Sources */,
+				EB44F7A81C634CCE008A3E5F /* ViewController.m in Sources */,
+				EB44F7A51C634CCE008A3E5F /* AppDelegate.m in Sources */,
+				EB44F7E81C634E5C008A3E5F /* TWHorizonalTableViewController.m in Sources */,
+				EB44F7E51C634D34008A3E5F /* TWSwipableViewController.m in Sources */,
+				EB44F7A21C634CCE008A3E5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F7B21C634CCE008A3E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44F7BB1C634CCE008A3E5F /* TWSwipableViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44F7BD1C634CCE008A3E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44F7C61C634CCE008A3E5F /* TWSwipableViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB44F7B81C634CCE008A3E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB44F79C1C634CCE008A3E5F /* TWSwipableViewController */;
+			targetProxy = EB44F7B71C634CCE008A3E5F /* PBXContainerItemProxy */;
+		};
+		EB44F7C31C634CCE008A3E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB44F79C1C634CCE008A3E5F /* TWSwipableViewController */;
+			targetProxy = EB44F7C21C634CCE008A3E5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB44F7A91C634CCE008A3E5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB44F7AA1C634CCE008A3E5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB44F7AE1C634CCE008A3E5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB44F7AF1C634CCE008A3E5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB44F7C81C634CCE008A3E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB44F7C91C634CCE008A3E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB44F7CB1C634CCE008A3E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TWSwipableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWSwipableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB44F7CC1C634CCE008A3E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TWSwipableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWSwipableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB44F7CE1C634CCE008A3E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TWSwipableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWSwipableViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWSwipableViewController.app/TWSwipableViewController";
+			};
+			name = Debug;
+		};
+		EB44F7CF1C634CCE008A3E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TWSwipableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWSwipableViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWSwipableViewController.app/TWSwipableViewController";
+			};
+			name = Release;
+		};
+		EB44F7D11C634CCE008A3E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TWSwipableViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWSwipableViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWSwipableViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EB44F7D21C634CCE008A3E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TWSwipableViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWSwipableViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWSwipableViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB44F7981C634CCE008A3E5F /* Build configuration list for PBXProject "TWSwipableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44F7C81C634CCE008A3E5F /* Debug */,
+				EB44F7C91C634CCE008A3E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB44F7CA1C634CCE008A3E5F /* Build configuration list for PBXNativeTarget "TWSwipableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44F7CB1C634CCE008A3E5F /* Debug */,
+				EB44F7CC1C634CCE008A3E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB44F7CD1C634CCE008A3E5F /* Build configuration list for PBXNativeTarget "TWSwipableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44F7CE1C634CCE008A3E5F /* Debug */,
+				EB44F7CF1C634CCE008A3E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB44F7D01C634CCE008A3E5F /* Build configuration list for PBXNativeTarget "TWSwipableViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44F7D11C634CCE008A3E5F /* Debug */,
+				EB44F7D21C634CCE008A3E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB44F7951C634CCE008A3E5F /* Project object */;
+}
